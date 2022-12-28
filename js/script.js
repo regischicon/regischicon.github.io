@@ -43,10 +43,10 @@ icons.forEach(icon => {
         if (target.classList.contains("fa-copy")) {
             if (target.id == "from") {
                 navigator.clipboard.writeText(fromText.value);
-                alert("Copied");
+                alert("Copied!");
             }else {
                 navigator.clipboard.writeText(toText.value);
-                alert("Copied");
+                alert("Copied!");
             }
         } else {
             let utterance;
